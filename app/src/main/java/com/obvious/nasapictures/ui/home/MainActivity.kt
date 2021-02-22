@@ -22,9 +22,6 @@ class MainActivity : AppCompatActivity() {
         (application as NasaApplication).appComponent.mainComponent().create().inject(this)
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-                val json =
-            applicationContext.resources.openRawResource(R.raw.data).bufferedReader().use { it.readText()
-            }
         loadImages()
     }
 
