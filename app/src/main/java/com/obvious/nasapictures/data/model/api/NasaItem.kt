@@ -1,10 +1,13 @@
 package com.obvious.nasapictures.data.model.api
 
+import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
+import kotlinx.android.parcel.Parcelize
 
+@Parcelize
 data class NasaItem(
     @SerializedName("copyright")
-    var copyright : String,
+    var copyright : String?,
     @SerializedName("date")
     var date : String,
     @SerializedName("explanation")
@@ -19,4 +22,4 @@ data class NasaItem(
     var title: String,
     @SerializedName("url")
     var url: String
-)
+) : Parcelable

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="image_height">400dp</dimen>
+    <dimen name="padding">10dp</dimen>
+    <dimen name="margin_top">20dp</dimen>
+    <dimen name="title_size">18sp</dimen>
+    <dimen name="desc_size">14sp</dimen>
+    <dimen name="grid_image_width">120dp</dimen>
+    <dimen name="grid_image_height">140dp</dimen>
+</resources>
